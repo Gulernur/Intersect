@@ -4,7 +4,9 @@ public class Main {
 
     public ArrayList<Integer> intersect(ArrayList<Integer> a, ArrayList<Integer> b){
         ArrayList<Integer> list = new ArrayList<>();
+        //Loops through arraylist 'a'.
         for (int integer : a) {
+            //adds the elements from list 'a' if it is found in list 'b'.
             if(b.contains(integer)){
                 list.add(integer);
             }
